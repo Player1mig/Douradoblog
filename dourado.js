@@ -34,3 +34,21 @@ olho.addEventListener("click", () => {
     }
 
 });
+
+
+function entrar(){
+
+const email = document.getElementById("email").value;
+const senha = document.getElementById("senha").value;
+
+if(email === "miguel@gmail.com" && senha === "1234"){
+
+    window.location.href = "pagina_inicial.html";
+
+}else{
+
+    alert("Email ou senha incorretos!");
+
+}
+
+}
